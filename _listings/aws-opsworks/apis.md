@@ -26,7 +26,7 @@ apis:
   tags: IP Addresses
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/ip-addresses/master/_listings/aws-opsworks/action-associateelasticip-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/ip-addresses/master/_listings/aws-opsworks/action-deregisterelasticip-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
