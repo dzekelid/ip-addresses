@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AttachStaticIp&k=1:
+  /?Action=AttachStaticIp:
     get:
       summary: ' Attach Static Ip '
       description: Attaches a static IP address to a specific Amazon Lightsail instance
