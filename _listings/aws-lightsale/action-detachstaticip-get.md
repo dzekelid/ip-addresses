@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DetachStaticIp&k=1:
+  /?Action=DetachStaticIp:
     get:
       summary: ' Detach Static Ip '
       description: |-
