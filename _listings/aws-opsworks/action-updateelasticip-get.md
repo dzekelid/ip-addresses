@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateElasticIp&k=1:
+  /?Action=UpdateElasticIp:
     get:
       summary: ' Update Elastic Ip '
       description: Updates a registered Elastic IP address's name
