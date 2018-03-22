@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ReleaseStaticIp&k=1:
+  /?Action=ReleaseStaticIp:
     get:
       summary: ' Release Static Ip '
       description: Deletes a specific static IP from your account
