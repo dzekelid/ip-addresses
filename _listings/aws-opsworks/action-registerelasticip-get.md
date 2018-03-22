@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RegisterElasticIp&k=1:
+  /?Action=RegisterElasticIp:
     get:
       summary: ' Register Elastic Ip '
       description: Registers an Elastic IP address with a specified stack
