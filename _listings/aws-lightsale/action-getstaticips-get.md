@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetStaticIps&k=1:
+  /?Action=GetStaticIps:
     get:
       summary: ' Get Static Ips '
       description: Returns information about all static IPs in the user's account
