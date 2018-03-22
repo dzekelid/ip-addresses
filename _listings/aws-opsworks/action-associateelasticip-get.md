@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AssociateElasticIp&k=1:
+  /?Action=AssociateElasticIp:
     get:
       summary: ' Associate Elastic IP'
       description: Associates one of the stack's registered Elastic IP addresses with
