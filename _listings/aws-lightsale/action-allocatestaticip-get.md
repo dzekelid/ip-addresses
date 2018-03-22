@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AllocateStaticIp&k=1:
+  /?Action=AllocateStaticIp:
     get:
       summary: ' Allocate Static Ip '
       description: Allocates a static IP address
