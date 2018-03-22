@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeElasticIps&k=1:
+  /?Action=DescribeElasticIps:
     get:
       summary: Describes Elastic IPs
       description: Describes Elastic IPs
