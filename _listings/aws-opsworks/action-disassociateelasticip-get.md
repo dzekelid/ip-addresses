@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DisassociateElasticIp&k=1:
+  /?Action=DisassociateElasticIp:
     get:
       summary: ' Disassociate Elastic Ip '
       description: Disassociates an Elastic IP address from its instance
