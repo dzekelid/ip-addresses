@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeregisterElasticIp&k=1:
+  /?Action=DeregisterElasticIp:
     get:
       summary: ' Deregister Elastic IP'
       description: Deregisters a specified Elastic IP address
