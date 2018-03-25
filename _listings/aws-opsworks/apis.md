@@ -12,8 +12,8 @@ tags:
 - Stack Network
 - Orchestration
 - Amazon Web Services
-created: "2018-03-23"
-modified: "2018-03-23"
+created: "2018-03-25"
+modified: "2018-03-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/aws-opsworks/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -26,7 +26,7 @@ apis:
   tags: IP Addresses
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/aws-opsworks/action-updateelasticip-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/aws-opsworks/action-associateelasticip-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
