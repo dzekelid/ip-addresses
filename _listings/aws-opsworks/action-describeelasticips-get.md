@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Describes Elastic IPs
   version: 1.0.0
+  description: Describes Elastic IPs
 schemes:
 - http
 produces:
