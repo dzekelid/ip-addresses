@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Associate Elastic IP
   version: 1.0.0
+  description: Associates one of the stack's registered Elastic IP addresses with
+    a specified instance.
 schemes:
 - http
 produces:
