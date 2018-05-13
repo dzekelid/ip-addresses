@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Register Elastic Ip
   version: 1.0.0
+  description: Registers an Elastic IP address with a specified stack.
 schemes:
 - http
 produces:
