@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Deregister Elastic IP
   version: 1.0.0
+  description: Deregisters a specified Elastic IP address.
 schemes:
 - http
 produces:
