@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Release Static Ip
   version: 1.0.0
+  description: Deletes a specific static IP from your account.
 schemes:
 - http
 produces:
