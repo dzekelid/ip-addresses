@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Allocate Static Ip
   version: 1.0.0
+  description: Allocates a static IP address.
 schemes:
 - http
 produces:
