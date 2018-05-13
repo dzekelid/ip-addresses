@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Disassociate Elastic Ip
   version: 1.0.0
+  description: Disassociates an Elastic IP address from its instance.
 schemes:
 - http
 produces:
