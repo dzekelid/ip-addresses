@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Get Static Ips
   version: 1.0.0
+  description: Returns information about all static IPs in the user's account.
 schemes:
 - http
 produces:
