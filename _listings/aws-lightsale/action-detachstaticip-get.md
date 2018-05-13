@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Detach Static Ip
   version: 1.0.0
+  description: |-
+    Detaches a static IP from the Amazon Lightsail instance to which it is
+          attached.
 schemes:
 - http
 produces:
