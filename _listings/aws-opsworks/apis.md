@@ -27,15 +27,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/aws-opsworks/action-updateelasticip-get.md
-- name: AWS OpsWorks API Register Elastic Ip
-  description: Registers an Elastic IP address with a specified stack.
+- name: AWS OpsWorks API Update Elastic Ip
+  description: Updates a registered Elastic IP address's name.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: http:://{host}//
   tags: IP Addresses
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/aws-opsworks/action-registerelasticip-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/aws-opsworks/action-updateelasticip-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
