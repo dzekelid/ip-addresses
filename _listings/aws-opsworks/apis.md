@@ -27,7 +27,23 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/aws-opsworks/action-updateelasticip-get.md
+- name: AWS OpsWorks API Associate Elastic IP
+  description: Associates one of the stack's registered Elastic IP addresses with
+    a specified instance.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: http:://{host}//
+  tags: IP Addresses
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/aws-opsworks/action-associateelasticip-get.md
 x-common:
+- type: x-command-line-interface
+  url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
+- type: x-documentation
+  url: http://docs.aws.amazon.com/opsworks/latest/APIReference/Welcome.html
+- type: x-website
+  url: https://aws.amazon.com/opsworks/
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
 - type: x-documentation
