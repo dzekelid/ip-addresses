@@ -28,15 +28,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/aws-lightsale/action-releasestaticip-get.md
-- name: Amazon Lightsale API Allocate Static Ip
-  description: Allocates a static IP address.
+- name: Amazon Lightsale API Attach Static Ip
+  description: Attaches a static IP address to a specific Amazon Lightsail instance.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
   humanURL: https://amazonlightsail.com/
   baseURL: http:://{host}//
   tags: IP Addresses
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/aws-lightsale/action-allocatestaticip-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/aws-lightsale/action-attachstaticip-get.md
 x-common:
 - type: x-documentation
   url: https://docs.aws.amazon.com/lightsail/2016-11-28/api-reference/Welcome.html?fid=6DDA37DF97F08F8B-23761D4A79F7B1E
