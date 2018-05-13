@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Attach Static Ip
   version: 1.0.0
+  description: Attaches a static IP address to a specific Amazon Lightsail instance.
 schemes:
 - http
 produces:
