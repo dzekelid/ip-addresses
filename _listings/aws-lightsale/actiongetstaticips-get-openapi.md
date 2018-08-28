@@ -100,6 +100,22 @@ paths:
           description: OK
       tags:
       - IP Addresses
+  /?Action=ReleaseStaticIp:
+    get:
+      summary: Release Static Ip
+      description: Deletes a specific static IP from your account.
+      operationId: releaseStaticIp
+      x-api-path-slug: actionreleasestaticip-get
+      parameters:
+      - in: query
+        name: staticIpName
+        description: The name of the static IP to delete
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - IP Addresses
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

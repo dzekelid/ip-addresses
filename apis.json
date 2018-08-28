@@ -1,0 +1,185 @@
+{
+	"name": "Streadata.io API Gallery - IP Addresses",
+	"description": "This is a repository of ip addresses APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/ip-addresses.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://ip-addresses.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "SendGrid",
+			"x-api-slug": "sendgrid",
+			"description": "Delivering your transactional and marketing emails through the worlds largest cloud-based email delivery platform. Send with confidence.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg",
+			"humanURL": "http://sendgrid.com",
+			"baseURL": "https:///",
+			"tags": "IP Addresses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/sendgrid/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Twilio",
+			"x-api-slug": "twilio",
+			"description": "Cloud communications platform for building SMS, Voice & Messaging applications on an API built for global scale. Get started with a free trial.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg",
+			"humanURL": "http://www.twilio.com",
+			"baseURL": "https://api.twilio.com//2010-04-01/",
+			"tags": "IP Addresses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/twilio/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Instructure",
+			"x-api-slug": "instructure",
+			"description": "Instructure makes software that makes smarter people. Products include Canvas LMS, Bridge and Canvas Network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg",
+			"humanURL": "http://instructure.com",
+			"baseURL": "https://canvas.instructure.com//api/v1",
+			"tags": "IP Addresses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/instructure/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Taxamo",
+			"x-api-slug": "taxamo",
+			"description": "We make global digital VAT/GST compliance possible. #DigitalTax #DigiTax #TaxTrends",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18644-taxamo.jpg",
+			"humanURL": "https://www.taxamo.com/",
+			"baseURL": "https://api.taxamo.com//",
+			"tags": "IP Addresses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/taxamo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Lightsale",
+			"x-api-slug": "aws-lightsale",
+			"description": "Amazon Lightsail is the easiest way to get started with AWS for developers who just need virtual private servers. Lightsail includes everything you need to launch your project quickly - a virtual machine, SSD-based storage, data transfer, DNS management, and a static IP - for a low, predictable price. You manage those Lightsail servers through the Lightsail console or by using the API or command-line interface (CLI).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png",
+			"humanURL": "https://amazonlightsail.com/",
+			"baseURL": ":///",
+			"tags": "IP Addresses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/aws-lightsale/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS OpsWorks",
+			"x-api-slug": "aws-opsworks",
+			"description": "AWS OpsWorks is a configuration management service that uses Chef, an automation platform that treats server configurations as code. OpsWorks uses Chef to automate how servers are configured, deployed, and managed across your Amazon Elastic Compute Cloud (Amazon EC2) instances or on-premises compute environments. OpsWorks has two offerings, AWS Opsworks for Chef Automate, and AWS OpsWorks Stacks.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png",
+			"humanURL": "https://aws.amazon.com/opsworks/",
+			"baseURL": ":///",
+			"tags": "IP Addresses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/aws-opsworks/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Weatherbit.io",
+			"x-api-slug": "weatherbit-io",
+			"description": "Our Weather API is the most powerful Weather data API on the web. Sign up for our free Weather API, and upgrade as your weather data needs grow!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28119-weatherbit.jpg",
+			"humanURL": "http://weatherbit.io",
+			"baseURL": "https://api.weatherbit.io//v2.0",
+			"tags": "IP Addresses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/weatherbit-io/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EU VAT API",
+			"x-api-slug": "eu-vat-api",
+			"description": "A developer friendly API to help your business achieve VAT compliance. Are you selling digital services to other EU countries? From Jan 1st 2015 changes to the VAT place of supply are coming into effect. One acceptable way to prove where your customer resides is their IP address. We have removed the headache and cost of you having to geo locate your customers IP address, and workout what VAT rate they should be charged. Simply pass your customers IP address from your application to our API and well return a JSON or XML object of all the current EU VAT rates for that country, or if you already know their country you can lookup the rates from the 2 digit country code.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vatapi-logo.png",
+			"humanURL": "http://vatapi.com",
+			"baseURL": "https://vatapi.com//v1",
+			"tags": "IP Addresses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/eu-vat-api/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "IBM Cloud",
+			"x-api-slug": "ibm-cloud",
+			"description": "The IBM Cloud has been built to help you solve problems and advance opportunities in a world flush with data. Whether it&rsquo;s data you possess, data outside your firewall, or data that&rsquo;s coming, the IBM Cloud helps you protect it, move it, integrate it and unlock intelligence from it &mdash; giving you what it takes to prevail in a competitive market.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28560-ibm-containers.jpg",
+			"humanURL": "https://www.ibm.com/cloud/",
+			"baseURL": "https://containers-api.ng.bluemix.net//v3",
+			"tags": "IP Addresses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/ibm-cloud/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "IP Addresses",
+	"include": [
+		{
+			"name": "SendGrid",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/sendgrid/apis.yaml"
+		},
+		{
+			"name": "Twilio",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/twilio/apis.yaml"
+		},
+		{
+			"name": "Instructure",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/instructure/apis.yaml"
+		},
+		{
+			"name": "Taxamo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/taxamo/apis.yaml"
+		},
+		{
+			"name": "AWS Lightsale",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/aws-lightsale/apis.yaml"
+		},
+		{
+			"name": "AWS OpsWorks",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/aws-opsworks/apis.yaml"
+		},
+		{
+			"name": "Weatherbit.io",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/weatherbit-io/apis.yaml"
+		},
+		{
+			"name": "EU VAT API",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/eu-vat-api/apis.yaml"
+		},
+		{
+			"name": "IBM Cloud",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/ip-addresses/master/_listings/ibm-cloud/apis.yaml"
+		}
+	]
+}
